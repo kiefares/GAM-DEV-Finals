@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf70d726da084a46a532146eed95e86, type: 3}
+  m_Name: Preset_Standard_Linear_HDR
+  m_EditorClassIdentifier: 
+  PresetDescription: A standard preset suitable for many HDR cameras.
+  presetType: 0
+  useBloom: 1
+  bloomType: 1
+  bloomDownsampleEnum: 4
+  bloomUseScreenBlend: 0
+  bloomDownsample: 4
+  bloomBlurPasses: 1
+  bloomIntensity: 0.88
+  bloomThreshold: 0.86
+  bloomThreshType: 0
+  bloomRadius: 1
+  bloomKnee: 1
+  bloomOneIntensity: 0.15
+  bloomTwoIntensity: 0.15
+  bloomThreeIntensity: 0.15
+  bloomFourIntensity: 0.15
+  useBloomStability: 0
+  useBloomLensdirt: 1
+  bloomLensdirtIntensity: 0.041
+  bloomLensdirtTexture: {fileID: 2800000, guid: 9337bbb7e51e1114fb460d8ea3a59af0,
+    type: 3}
+  useFullScreenBlur: 0
+  bloomFlareRadialColorTex: {fileID: 2800000, guid: 7fbdc23b3e999624d95195ab44bf4470,
+    type: 3}
+  bloomFlareHaloTex: {fileID: 2800000, guid: 0bc000ac5b3413d48a95d2e3c8d7479c, type: 3}
+  bloomFlareStarburstTex: {fileID: 2800000, guid: 8c404711bb9951e4499be728c11b3f26,
+    type: 3}
+  bloomFlareStrength: 1.9
+  bloomFlareLensDirtIntensityMultiplier: 1.9
+  bloomFlareHaloWidth: 0.5
+  bloomFlareGhostDispersal: 0.11
+  bloomFlareChromaticDistortion: 1.03
+  bloomFlareNumberGhosts: 6
+  useUIBlur: 0
+  uiBlurGrabTextureFromPassNumber: 2
+  useFog: 0
+  fogAffectSkybox: 1
+  fogIntensity: 1
+  fogHeight: 2
+  fogStartPoint: 364.3
+  fogMidPoint: 50
+  fogEndPoint: 50
+  fogDistance: 377
+  fogColor: {r: 0.25960764, g: 0.2495134, b: 0.52205884, a: 1}
+  fogEndColor: {r: 1, g: 1, b: 1, a: 1}
+  fogMidColor: {r: 0, g: 0, b: 0, a: 1}
+  useDoF: 0
+  dofRadius: 0.877
+  dofSampleCount: 1
+  dofBokehFactor: 164
+  dofFocusPoint: 3.28
+  dofFocusDistance: 42.1
+  useNearBlur: 0
+  dofBlurSkybox: 1
+  dofNearFocusDistance: 58.8
+  dofForceEnableMedian: 0
+  dofDownsample: 2
+  useAmbientObscurance: 1
+  aoIntensity: 0.809
+  aoContrast: 0.6
+  aoRadius: 0.428
+  aoBias: 0.058
+  aoDownsample: 0
+  aoBlurIterations: 1
+  aoBlurFilterDistance: 1.25
+  useAODistanceCutoff: 0
+  aoDistanceCutoffLength: 50
+  aoDistanceCutoffStart: 500
+  aoSampleCount: 3
+  aoBlurType: 4
+  aoLightingContribution: 1
+  occlusionSource: 0
+  useChromaticAb: 1
+  aberrationType: 0
+  chromIntensity: 0.0214
+  chromStart: 0.299
+  chromEnd: 1
+  useChromaticBlur: 0
+  chromaticBlurWidth: 0
+  useVignette: 1
+  vignetteStart: 0.792
+  vignetteEnd: 0.491
+  vignetteIntensity: 0.857
+  vignetteColor: {r: 0.1397059, g: 0.09039793, b: 0.09039793, a: 1}
+  useNoise: 1
+  noiseIntensity: 0.047
+  useTonemap: 1
+  toneType: 2
+  toneValues: {x: 2.51, y: 0.03, z: 2.43}
+  secondaryToneValues: {x: 0.59, y: 0.14, z: 0}
+  useGammaCorrection: 0
+  gammaValue: 2.5
+  useExposure: 0
+  exposureSpeed: 2.35
+  exposureMiddleGrey: 0.12
+  exposureLowerLimit: 0.4
+  exposureUpperLimit: 9
+  useLUT: 0
+  lutPath: 
+  lutIntensity: 0.114
+  twoDLookupTex: {fileID: 2800000, guid: d924a6de4d4d57840b13fce0b893f17f, type: 3}
+  useSecondLut: 0
+  secondaryLutPath: 
+  secondaryTwoDLookupTex: {fileID: 0}
+  secondaryLutLerpAmount: 0.441
+  useNV: 0
+  nvColor: {r: 0, g: 1, b: 0.08965492, a: 0}
+  nvBleachColor: {r: 1, g: 1, b: 1, a: 0}
+  nvLightingContrib: 0.1
+  nvLightSensitivity: 25.4
+  useRays: 0
+  rayWeight: 0.58767
+  rayColor: {r: 1, g: 1, b: 1, a: 1}
+  rayThreshold: {r: 0.1544118, g: 0.12690462, b: 0.10786118, a: 1}
+  rayDecay: 0.96815
+  rayExposure: 0.2
+  rayDensity: 0.926
+  rayDownsample: 4
+  useSharpen: 1
+  sharpenAmount: 1
+  useColorify: 1
+  colorifyAmount: 0.2
+  useBrightness: 1
+  brightIntensity: 0.336
+  brightCutoff: 0.078
+  brightSoftness: 0.2

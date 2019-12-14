@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4aaba17d58c3f334bbd3b6e1ceae8eea
+timeCreated: 1564080198
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mainShadowsLight: {instanceID: 0}
+  - frustumShadowsShader: {fileID: 4800000, guid: 7f47ab1b6b8f8cc4295041dc9862dbe7,
+      type: 3}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 71dca4875278e104a95fc6ce8d25582c, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
