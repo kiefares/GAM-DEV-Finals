@@ -30,8 +30,8 @@ namespace Fabricated
 
 		void PlayCallback()
 		{
-			SceneManager.LoadScene("Chapter1", LoadSceneMode.Single);
-            //SceneManager.LoadScene("Chapter2", LoadSceneMode.Single);
+			//SceneManager.LoadScene("Chapter1", LoadSceneMode.Single);
+            SceneManager.LoadScene("Chapter2", LoadSceneMode.Single);
 		}
 
 		void SettingsCallback()
