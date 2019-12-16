@@ -15,4 +15,9 @@ public class Talk : MonoBehaviour
     {
         
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Hello, You may talk to me");
+    }
 }
